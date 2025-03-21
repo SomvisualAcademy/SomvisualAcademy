@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somvisual Help Center</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="./images/crowdsource_42dp_4285F4_FILL0_wght400_GRAD0_opsz40.png">
+  <link rel="stylesheet" href="community.css">
+</head>
+<body>
+     <!-- Welcome Popup -->
+    <!-- <div id="welcome-popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Our Website! ⚡</h2>
+            <p>We're glad to have you here. Explore and enjoy our services.</p>
+            <button id="close-popup">Got it!</button>
+        </div>
+    </div> -->
+
+    <header>
+      <div class="logo">
+          <img src="./images/crowdsource_42dp_4285F4_FILL0_wght400_GRAD0_opsz40.png" alt="somvisual Logo">
+      </div>
+      <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+              <li><a href="Help.html">Help</a></li>
+              <li><a href="Community.html">Community</a></li>
+              <li><a href="https://wa.me/+252067216902">Order</a></li>
+              <li><a href="https://wa.me/+2520672169029">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+      </header>
+      <section class="Card-big">
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                "C# (C-Sharp) is a programming language made by Microsoft. It is used to create websites, apps, and games. It is easy to learn and works well with Windows."
+            </div>
+            <div class="testimonial-author">- Ayanle Abshir Mohamoud </div>
+            <div class="testimonial-role">Eng, IT Technician</div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                "HTML is the language used to create web pages. It helps structure content using elements like headings, paragraphs, images, and links. HTML alone does not add design or interactivity; it just organizes content."
+                ""
+            </div>
+            <div class="testimonial-author">- Ayanle Abshir Mohamoud</div>
+            <div class="testimonial-role">Eng,IT Technician</div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                "Websites – Online stores, social media, and forums store user data in databases using SQL."
+            </div>
+            <div class="testimonial-author">- Lance Jarvis</div>
+            <div class="testimonial-role">CEO, Company Name</div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                "Guna Framework is a set of UI (User Interface) controls for Windows Forms applications in C# (.NET). It helps developers create modern, beautiful, and responsive desktop applications with custom-designed buttons, panels, textboxes, and animations."
+            </div>
+            <div class="testimonial-author">- Ayanle Abshir Mohamoud</div>
+            <div class="testimonial-role">Eng, IT Technician</div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        <div id="messageBox" class="message-box">Copied!</div>
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                "Guna Framework makes Windows Forms applications look better and more professional. It is a great choice for developers who want modern UI design without writing complex code."
+            </div>
+            <div class="testimonial-author">- Zakariye Ahmed Hussain</div>
+            <div class="testimonial-role">CEO, BadbaadoTech</div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        
+        <div id="messageBox" class="message-box">Copied!</div>
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                ".NET Framework is a software platform created by Microsoft that helps developers build applications using C# and other languages. It provides tools, libraries, and runtime support to create desktop applications, web apps, and services that run on Windows."
+            </div>
+            <div class="testimonial-author">- Zakairye Ahmed Hussain</div>
+            <div class="testimonial-role">CEO, BadbaadoTech</div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        
+        <div id="messageBox" class="message-box">Copied!</div>
+        <div class="testimonial-container">
+            <img src="images/enthusiastic-african-engineer-analysing-cad-software-design-3d-concept-container-working-overtime-start-up-company-prototype.jpg" alt="Profile Image" class="profile-image">
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="testimonial-text">
+                "CRUD stands for Create, Read, Update, and Delete. It represents the basic operations performed on a database or data storage system. CRUD is used in web applications, software, and databases to manage data efficiently."
+            </div>
+            <div class="testimonial-author">- Zakariye Ahmed Hussain</div>
+            <div class="testimonial-role">CEO, BadbaadoTech98
+            u
+            </div>
+            <i class="fas fa-copy copy-icon" onclick="copyTestimonial()"></i>
+        </div>
+        
+        <div id="messageBox" class="message-box">Copied!</div>
+      </section>
+     
+
+  <footer>
+    <p>&copy; 2025 Somvisaul Tech Solution. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener("click", function (event) {
+        if (!hamburger.contains(event.target) && !navLinks.contains(event.target)) {
+            navLinks.classList.remove("active");
+        }
+    });
+});
+
+function copyTestimonial() {
+        const testimonialText = document.querySelector('.testimonial-text').innerText;
+        navigator.clipboard.writeText(testimonialText).then(() => {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'block';
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, 2000);
+        });
+    }
+  </script>
+</body>
+</html>

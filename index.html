@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somvisual Help Center</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="./images/crowdsource_42dp_4285F4_FILL0_wght400_GRAD0_opsz40.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Welcome Popup -->
+    <div id="welcome-popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Our Website! ⚡</h2>
+            <p>We're glad to have you here. Explore and enjoy our services.</p>
+            <button id="close-popup">Got it!</button>
+        </div>
+    </div>
+
+    <header>
+      <div class="logo">
+          <img src="./images/crowdsource_42dp_4285F4_FILL0_wght400_GRAD0_opsz40.png" alt="somvisual Logo">
+      </div>
+      <nav>
+          <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Help.html">Help</a></li>
+              <li><a href="Community.html">Community</a></li>
+              <li><a href="order.html">Order</a></li>
+              <li><a href="https://wa.me/+2520672169029">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="search-bar">
+          <input type="text" placeholder="Search help articles">
+          <button id="searchBtn">Search</button>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Message Box -->
+    <div id="messageBox" class="message-box">
+        <span class="close-btn">&times;</span>
+        <p>Sorry, the server is not working.</p>
+    </div>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+      </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>How can we help you?</h1>
+      <p>Find answers to your questions about Somvisual products and services.</p>
+    </section>
+
+    <section class="categories">
+      <div class="category-card">
+        <img src="images/local_cafe_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Cafe Icon">
+        <h3>Cafe M.S</h3>
+        <p>Get help with Cafe M.S.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/local_library_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Library Icon">
+        <h3>Library M.S</h3>
+        <p>Learn about Library.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/new_releases_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Note Icon">
+        <h3>Note M.S</h3>
+        <p>Manage your Notes.</p>
+      </div>      <div class="category-card">
+        <img src="./images/health_metrics_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Hospital Icon">
+        <h3>Hostipal M.S</h3>
+        <p>Manage your Patients.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/graphic_eq_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Audio Icon">
+        <h3>Audio M.S</h3>
+        <p>Manage your Audios.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/campaign_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Marketer Icon">
+        <h3>Marketer M.S</h3>
+        <p>Manage your Customers.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/table_restaurant_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Restuarant Icon">
+        <h3>Restuarant M.S</h3>
+        <p>Manage your Orders.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/lens_blur_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Research Icon">
+        <h3>Research M.S</h3>
+        <p>Make Your Research well.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/hub_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Hub Icon">
+        <h3>Hub M.S</h3>
+        <p>Manage your Hub.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/storefront_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Store Icon">
+        <h3>Store M.S</h3>
+        <p>Manage your Stores.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/bar_chart_4_bars_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Photos Icon">
+        <h3>Business M.S</h3>
+        <p>Manage your Bussines.</p>
+      </div>
+      <div class="category-card">
+        <img src="./images/contrast_square_90dp_4285F4_FILL0_wght400_GRAD0_opsz48.png" alt="Advance Calculator Icon">
+        <h3>Advance Calculator</h3>
+        <p>Make Advance Calculator.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Somvisaul Tech Solution. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
